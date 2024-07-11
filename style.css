@@ -16,6 +16,11 @@
     color: #474747;
 }
 
+.dark-3{
+    color:#757575;
+    font-size: 16px;
+}
+
 .btn{
     background-color: #FD6E0A;
     font-weight: bold;
@@ -142,4 +147,32 @@ main section{
     padding: 34px;
     border-radius: 5px;
     box-shadow: 0px 6px 50px 0px rgba(0,0,0,0.06) ;
+}
+
+/* resume */
+
+.resume-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+.resume-title{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.subhed{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.resume hr{
+    margin: 40px 5px;
+}
+
+.resume-btn{
+    margin-top: 30px;
 }
