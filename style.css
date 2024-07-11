@@ -1,6 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
-/* Navbar style */
+
+
+/* shared style */
+
+.text-center{
+    text-align: center;
+}
+
+.secondery-bg{
+    background-color: #FFF8F3;
+}
 
 .dark-2{
     color: #474747;
@@ -16,11 +26,23 @@
     border: none;
 }
 
+.section-title{
+    font-weight: bold;
+    font-size: 35px;
+    color: #181818;
+}
+
+.section-description{
+    font-size: 18px;
+    color: #757575;
+}
+
 header{
     background-image: url('./images/developer.png'), url('./images/header_bg.png');
     background-repeat: no-repeat;
     background-position: top left, bottom right;
 }
+/* Navbar style */
 
 nav{
     display: flex;
@@ -49,6 +71,15 @@ nav ul li a{
      font-size: 20px;
 }
 
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
 /* banner style */
 
 .banner{
@@ -72,4 +103,43 @@ nav ul li a{
 
 .banner-img{
     width: 580px;
+}
+
+/* about */
+
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+     
+}
+
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-description{
+        font-weight: bold;
+        font-size: 20px;
+}
+.item-title{
+     
+    font-size: 20px;
+}
+
+
+/* skill section */
+
+.skill-content{
+    display: flex;
+    gap: 24px;
+    margin-top: 60px;
+}
+
+.skill {
+    padding: 34px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0,0,0,0.06) ;
 }
