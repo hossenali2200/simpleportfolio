@@ -31,6 +31,13 @@
     border: none;
 }
 
+.btn:hover{
+    background-color: #ac6f43;
+    color: black;
+    transition: .5s ease-in;
+     
+}
+
 .section-title{
     font-weight: bold;
     font-size: 35px;
@@ -175,4 +182,25 @@ main section{
 
 .resume-btn{
     margin-top: 30px;
+}
+
+/* footer style */
+
+.footer-content{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 80px ;
+    padding-bottom: 80px ;
+    gap: 240px;
+}
+
+.right button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.right input{
+    padding: 10px;
+    width: 350px;
 }
